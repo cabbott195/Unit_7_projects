@@ -5,8 +5,8 @@
    Tutorial 5
    Case Problem 3
    
-   Author:   
-   Date:      
+   Author:   Colby Abbott
+   Date:      10/31/19
    
    Filename: cw_styles.css
 
@@ -17,14 +17,24 @@
 
 
 /* Import Basic Design Styles  */
-
-
-
+/*number 3*/
+@import "cw_styles.css";
 /* ===============================
 	General Styles for All Devices
    ===============================
 */
-
+/*number 4*/
+nav#bottom ul{
+    display: flex;
+    display: -webkit-flex;
+    flex-flow: nowrap;
+    -webkit-flex-flow: nowrap;
+    justify-content: center;
+}
+/*number 5*/
+nav#bottom ul{
+    
+}
 
 
 /* ===============================
